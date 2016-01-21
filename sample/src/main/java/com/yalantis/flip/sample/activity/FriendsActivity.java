@@ -55,7 +55,7 @@ public class FriendsActivity extends ActionBarActivity {
     class FriendsAdapter extends BaseFlipAdapter<Friend> {
 
         private final int PAGES = 3;
-        private int[] IDS_INTEREST = {R.id.interest_1};
+        private int[] IDS_INTEREST = {R.id.interest_1, R.id.interest_2};
 
         public FriendsAdapter(Context context, List<Friend> items, FlipSettings settings) {
             super(context, items, settings);

@@ -25,8 +25,15 @@
         <com.yalantis.flip.sample.views.FontTextView
             style="@style/TextView.Interest"
             android:id="@+id/interest_1"
-            android:layout_gravity="center"
-            android:gravity="center" />
+            android:layout_gravity="left"
+            android:gravity="left" />
+
+        <com.yalantis.flip.sample.views.FontTextView
+            style="@style/TextView.Interest"
+            android:id="@+id/interest_2"
+            android:layout_gravity="right"
+            android:gravity="left" />
+
 
 
     </LinearLayout>
@@ -35,7 +42,7 @@
     <LinearLayout
         android:layout_below="@+id/interestsPrimary"
         android:id="@+id/interestsSecondary"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="3dp"
         style="@style/LinearLayout.Interests"
         android:layout_gravity="center"
         android:gravity="center">
